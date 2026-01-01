@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 /// <summary>
 /// An interactable joystick that can move side to side, and forward and back by a direct interactor
 /// </summary>
-public class XRJoystick : XRBaseInteractable
+public class XRJoystick : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
 {
     public enum JoystickType
     {
@@ -34,7 +34,7 @@ public class XRJoystick : XRBaseInteractable
     public ValueChangeEvent OnYValueChange = new ValueChangeEvent();
 
     public Vector2 Value { get; private set; } = Vector2.zero;
-    private XRBaseInteractor selectInteractor = null;
+    private UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor selectInteractor = null;
 
     private Vector3 initialPosition = Vector3.zero;
 
@@ -57,7 +57,7 @@ public class XRJoystick : XRBaseInteractable
 
     private void StartGrab(SelectEnterEventArgs eventArgs)
     {
-        selectInteractor = eventArgs.interactor;
+        selectInteractor = (UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor)eventArgs.interactorObject;
         initialPosition = ConvertToLocal(selectInteractor.transform.position);
     }
 

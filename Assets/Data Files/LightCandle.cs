@@ -11,7 +11,7 @@ public class LightCandle : MonoBehaviour
     }
     void Update()
     {
-        if(rigidbody.velocity.magnitude >= velocityThreshold)
+        if(rigidbody.linearVelocity.magnitude >= velocityThreshold)
         {
             flames.Stop();
         }

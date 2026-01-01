@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 /// <summary>
 /// An interactable that lets the push/pull a handle a long a linear track by a direct interactor
 /// </summary>
-public class XRSlider : XRBaseInteractable
+public class XRSlider : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
 {
     [Tooltip("The object that's grabbed and manipulated")]
     public Transform handle = null;
@@ -27,7 +27,7 @@ public class XRSlider : XRBaseInteractable
 
     public float Value { get; private set; } = 0.0f;
 
-    private XRBaseInteractor selectInteractor = null;
+    private UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor selectInteractor = null;
     private Vector3 selectPosition = Vector3.zero;
     private float startingValue = 0.0f;
 
@@ -53,7 +53,7 @@ public class XRSlider : XRBaseInteractable
 
     private void StartGrab(SelectEnterEventArgs eventArgs)
     {
-        selectInteractor = eventArgs.interactor;
+        selectInteractor = (UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor)eventArgs.interactorObject;
         selectPosition = selectInteractor.transform.position;
         startingValue = Value;
     }
