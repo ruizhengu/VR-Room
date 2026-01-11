@@ -1,0 +1,372 @@
+[
+  {
+    "interactable": "Launcher_DartGun",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ],
+      [
+        "trigger",
+        "grab"
+      ]
+    ]
+  },
+  {
+    "interactable": "Hat_Cap",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Hat_Straw",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Tennis_Ball_BlueRed",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Tennis_Racket_Blue",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Object_MagnifyingGlass",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Notebook_Stripes",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Candle",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Lighter",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ],
+      [
+        "trigger",
+        "grab"
+      ]
+    ]
+  },
+  {
+    "interactable": "Art_Painting_Desert",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Art_Painting_Birds",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Book_B_BrownRed",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Book_C_Gray",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Book_C_Green",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactable": "Remote",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ],
+      [
+        "trigger",
+        "grab"
+      ]
+    ]
+  },
+  {
+    "interactable": "Phone_Blue",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ],
+      [
+        "trigger",
+        "grab"
+      ]
+    ]
+  },
+  {
+    "interactable": "Phone_White",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ],
+      [
+        "trigger",
+        "grab"
+      ]
+    ]
+  },
+  {
+    "interactable": "Lightsource_Flashlight_Yellow",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ],
+      [
+        "trigger",
+        "grab"
+      ]
+    ]
+  },
+  {
+    "interactable": "Container_WateringCan_Blue",
+    "interaction": [
+      [
+        "grab",
+        ""
+      ]
+    ]
+  },
+  {
+    "interactor": "Socket 1",
+    "interactable": "Hat_Cap",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1",
+    "interactable": "Hat_Straw",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (1)",
+    "interactable": "Hat_Cap",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (1)",
+    "interactable": "Hat_Straw",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (2)",
+    "interactable": "Hat_Cap",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (2)",
+    "interactable": "Hat_Straw",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (3)",
+    "interactable": "Hat_Cap",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (3)",
+    "interactable": "Hat_Straw",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (4)",
+    "interactable": "Hat_Cap",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (4)",
+    "interactable": "Hat_Straw",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (5)",
+    "interactable": "Hat_Cap",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Socket 1 (5)",
+    "interactable": "Hat_Straw",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook",
+    "interactable": "Art_Painting_Desert",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook",
+    "interactable": "Art_Painting_Birds",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook (1)",
+    "interactable": "Art_Painting_Desert",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook (1)",
+    "interactable": "Art_Painting_Birds",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook (2)",
+    "interactable": "Art_Painting_Desert",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook (2)",
+    "interactable": "Art_Painting_Birds",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook (3)",
+    "interactable": "Art_Painting_Desert",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Hook (3)",
+    "interactable": "Art_Painting_Birds",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book",
+    "interactable": "Book_B_BrownRed",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book",
+    "interactable": "Book_C_Gray",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book",
+    "interactable": "Book_C_Green",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (1)",
+    "interactable": "Book_B_BrownRed",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (1)",
+    "interactable": "Book_C_Gray",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (1)",
+    "interactable": "Book_C_Green",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (2)",
+    "interactable": "Book_B_BrownRed",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (2)",
+    "interactable": "Book_C_Gray",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (2)",
+    "interactable": "Book_C_Green",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (3)",
+    "interactable": "Book_B_BrownRed",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (3)",
+    "interactable": "Book_C_Gray",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (3)",
+    "interactable": "Book_C_Green",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (4)",
+    "interactable": "Book_B_BrownRed",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (4)",
+    "interactable": "Book_C_Gray",
+    "interaction": "socket"
+  },
+  {
+    "interactor": "Book (4)",
+    "interactable": "Book_C_Green",
+    "interaction": "socket"
+  }
+]

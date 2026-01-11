@@ -19,6 +19,8 @@ MonoBehaviour:
   - Teleport
   - Water
   - UI
+  - Painting
+  - Book
   - 
   - 
   - 
@@ -42,6 +44,4 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Teleport
